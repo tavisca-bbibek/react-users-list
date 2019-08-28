@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
 }
 
 code {
@@ -24,6 +25,7 @@ code {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
+  opacity: .9;
 }
 
 .user-list-container{
@@ -33,25 +35,25 @@ code {
 }
 
 .user-details-container{
-  background-color: darkseagreen;
+  background-color: whitesmoke;
   height: 470px;
   font-size: 1.4em;
   padding-top: 30px;
-  color: darkslategrey;
+  color: grey;
 }
 
 input{
   outline: none;
   width: 200px;
   font-size: 1em;
-  color: darkslategrey;
+  color: grey;
   padding: 5px;
   border: 1px solid whitesmoke;
   cursor: text;
 }
 
 ul{
-  background: darkslategrey;
+  background: darkcyan;
   list-style: none;
   height: 500px;
 }
@@ -65,7 +67,7 @@ li{
 
 button{
   border: 1px solid whitesmoke;
-  background: darkslategrey;
+  background: darkgray;
   margin-top: 10px;
   color: white;
   padding: 5px;
@@ -75,7 +77,7 @@ button{
 }
 
 button:hover{
-  background-color: orange;
+  background-color: darkcyan;
 }
 
 hr{
@@ -85,8 +87,9 @@ hr{
 }
 
 .active{
-  color: white;
-  background-color: darkseagreen;
+  color: grey;
+  font-size: 1.1em;
+  background-color: whitesmoke;
 }
 
 
