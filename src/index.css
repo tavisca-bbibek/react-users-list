@@ -11,3 +11,82 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+#root{
+  width: 550px;
+  border: 2px solid whitesmoke;
+  box-shadow: 0px 0px 20px rgba(50, 50, 0, .5);
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user-list-container{
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.user-details-container{
+  background-color: darkseagreen;
+  height: 470px;
+  font-size: 1.4em;
+  padding-top: 30px;
+  color: darkslategrey;
+}
+
+input{
+  outline: none;
+  width: 200px;
+  font-size: 1em;
+  color: darkslategrey;
+  padding: 5px;
+  border: 1px solid whitesmoke;
+  cursor: text;
+}
+
+ul{
+  background: darkslategrey;
+  list-style: none;
+  height: 500px;
+}
+
+li{
+  height: 20px;
+  padding: 10px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+button{
+  border: 1px solid whitesmoke;
+  background: darkslategrey;
+  margin-top: 10px;
+  color: white;
+  padding: 5px;
+  font-size: 1em;
+  outline: none;
+  box-shadow: 2px 2px 2px rgba(0,0,0, 0.2);
+}
+
+button:hover{
+  background-color: orange;
+}
+
+hr{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.active{
+  color: white;
+  background-color: darkseagreen;
+}
+
+
